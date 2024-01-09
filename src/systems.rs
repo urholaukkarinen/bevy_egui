@@ -251,6 +251,7 @@ pub fn process_input_system(
                 };
                 let egui_event = egui::Event::Key {
                     key,
+                    physical_key: None,
                     pressed,
                     repeat: false,
                     modifiers,
